@@ -1,0 +1,30 @@
+.header{
+    
+    font-size: 25px;
+    background-color: antiquewhite;
+    height: 40px;
+}
+
+
+.header-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+    
+
+   
+   
+}
+
+.header .header-links  li{
+    list-style: none;
+}
+
+.header .header-links  li a{
+    
+    color: black;
+   text-decoration: none;
+}
+

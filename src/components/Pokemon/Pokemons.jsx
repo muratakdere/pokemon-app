@@ -10,14 +10,11 @@ const Pokemons = () => {
     <PokemonItem key={pokemon.id} pokemon={pokemon} />
   ));
 
-  const [data, setData] = useState([]);
-
   useEffect(() => {
-    const getData = () => {
-      axios
+    const getData = async () => {
+      await axios
         .get("https://pokeapi.co/api/v2/pokemon/")
-        .then((response) => setData(response.data.results));
-      setPokemons(data);
+        .then((response) => setPokemons(response.data.results));
     };
 
     getData();

@@ -1,2 +1,77 @@
+.global-footer {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 1em;
+  width: 100%;
+}
 
+.global-footer-email {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 850px;
+  max-width: 1024px;
+  margin: 4rem auto 2rem auto;
+  color: white;
+}
 
+.global-footer-email .footer-email-title {
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+}
+
+.global-footer-email .footer-email-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.global-footer-email .footer-email-submit {
+  width: 10rem;
+  height: 4rem;
+  font-size: 100%;
+  font-weight: bold;
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.global-footer-email .footer-email-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+
+.global-footer-email .footer-email-form .footer-white-box {
+  background-color: white !important;
+  color: grey !important;
+  font-weight: bold;
+}
+
+.global-footer-email .footer-email-form .region_dob_wrap {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+
+.global-footer-email .footer-email-form .footer-region-select {
+  min-width: 48%;
+}
+
+.global-footer-email
+  .footer-email-notification-options
+  .footer-email-checkbox-wrapper-1 {
+  display: flex;
+  column-gap: 0.5rem;
+  margin-top: 0.5rem;
+  align-items: center;
+}
+
+.global-footer input {
+  height: 35px;
+}
